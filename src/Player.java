@@ -2,10 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
+
 class Player {
 
 static boolean boostOK = true;
@@ -14,17 +11,12 @@ static String vitesse;
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int tempNextCheckpointX = 0;
-        int tempCheckpointX = 0;
         int borne = 0;
-        int tour = 0;
-        int force;
         int borneRepèreX = 0;
        
         int etape = 0;
         int nombreBorne = 0;
         int tempNombreBorne = 0;
-        int i = 0;
-        boolean passage = true;
         List<Integer> listX =  new ArrayList<>();
         List<Integer> listY =  new ArrayList<>();
         
